@@ -16,7 +16,7 @@ For this to work, you'll need the the [Google App Engine SDK for Java](http://co
 
 	jruby -S gem install warbler
 
-After you've downloaded those, clone this repository local:
+After you've downloaded those, clone this repository on your local:
 
 	git clone git@github.com:manalang/sinatra-on-gae-template.git
 	

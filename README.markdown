@@ -26,10 +26,10 @@ Create your Sinatra app in app.rb.  When you're ready, package it up using warbl
 	
 This will update the tmp/war directory in your app.  After that's done, you can test it by running:
 
-	appengine-java-sdk-XXX/bin/dev_appserver.sh tmp/war
+	appengine-java-sdk-XXX/bin/dev_appserver.sh app
 	
 This will run the local GAE server.  This is probably not the most convenient way to test.  You might want to test under MRI instead.  When you're ready to deploy, you'll first need to update your appengine-web.xml and replace YOUR-APPLICATION-ID, then deploy by running:
 
-	appengine-java-sdk-XXX/bin/appcfg.sh update tmp/war
+	appengine-java-sdk-XXX/bin/appcfg.sh update app
 	
 Make sure you've [signed up](http://appengine.google.com/) for a Google App Engine account before you do this.

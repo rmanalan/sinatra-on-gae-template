@@ -20,7 +20,7 @@ After you've downloaded those, clone this repository on your local:
 
 	git clone git@github.com:manalang/sinatra-on-gae-template.git
 	
-Create your Sinatra app in app.rb.  When you're ready, package it up using warbler:
+Create your Sinatra app in app/WEB-INF/app.rb.  When you're ready, package it up using warbler:
 
 	jruby -S warble
 	
@@ -28,7 +28,7 @@ This will update the tmp/war directory in your app.  After that's done, you can 
 
 	appengine-java-sdk-XXX/bin/dev_appserver.sh app
 	
-This will run the local GAE server.  This is probably not the most convenient way to test.  You might want to test under MRI instead.  When you're ready to deploy, you'll first need to update your appengine-web.xml and replace YOUR-APPLICATION-ID, then deploy by running:
+This will run the local GAE server.  This is probably not the most convenient way to test.  You might want to test under MRI instead.  When you're ready to deploy, you'll first need to update your app/WEB-XML/appengine-web.xml by replacing YOUR-APPLICATION-ID and also change the :environment in config.ru, then deploy by running:
 
 	appengine-java-sdk-XXX/bin/appcfg.sh update app
 	

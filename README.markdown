@@ -1,9 +1,9 @@
 Sinatra Template for Google App Engine
 =====================================
 
-Want to write a Google AppEngine app using Sinatra and JRuby?  There are a few good places to go for how to do it:
+Want to write a Google App Engine app using Sinatra and JRuby?  There are a few good places to go for how to do it:
 
- * [Running Sinatra apps on Google AppEngine (Java)](http://blog.bigcurl.de/2009/04/running-sinatra-apps-on-google.html)
+ * [Running Sinatra apps on Google App Engine (Java)](http://blog.bigcurl.de/2009/04/running-sinatra-apps-on-google.html)
  * [Writing Sinatra apps for Google App Engine, the productive way](http://dev.massivebraingames.com/past/2009/4/15/writing_sinatra_apps_for_google/)
  * [App Engine Java Overview](http://code.google.com/appengine/docs/java/overview.html)
 
